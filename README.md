@@ -1,5 +1,5 @@
 # Terqwazproject
-It is a selenium java and shaft selenium java  and Api and shaftAPI.
+It is a selenium java project
 I used java,selenium,testng and maven
 
 Testcase1:Search for (text:selennium webdriver) on google website and Assert on a certain result.

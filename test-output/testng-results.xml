@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-12T17:10:10Z" name="Default suite" finished-at="2021-11-12T17:10:28Z" duration-ms="17207">
+    <groups>
+    </groups>
+    <test started-at="2021-11-12T17:10:10Z" name="Default test" finished-at="2021-11-12T17:10:28Z" duration-ms="17207">
+      <class name="tests.Searchtest">
+        <test-method is-config="true" signature="openurl(java.lang.String)[pri:0, instance:tests.Searchtest@1c7696c6]" started-at="2021-11-12T17:10:10Z" name="openurl" finished-at="2021-11-12T17:10:23Z" duration-ms="12325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="usersearchtest()[pri:0, instance:tests.Searchtest@1c7696c6]" started-at="2021-11-12T17:10:23Z" name="usersearchtest" finished-at="2021-11-12T17:10:26Z" duration-ms="3603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersearchtest -->
+        <test-method is-config="true" signature="getscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Searchtest@1c7696c6]" started-at="2021-11-12T17:10:26Z" name="getscreenshot" finished-at="2021-11-12T17:10:27Z" duration-ms="514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usersearchtest status=SUCCESS method=Searchtest.usersearchtest()[pri:0, instance:tests.Searchtest@1c7696c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getscreenshot -->
+        <test-method is-config="true" signature="closeurl()[pri:0, instance:tests.Searchtest@1c7696c6]" started-at="2021-11-12T17:10:27Z" name="closeurl" finished-at="2021-11-12T17:10:28Z" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeurl -->
+      </class> <!-- tests.Searchtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
